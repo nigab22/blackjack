@@ -1,0 +1,103 @@
+body {
+  background: url('images/blackjack-background.png') no-repeat 80% 90%;
+  background-size: cover;
+}
+
+.blackjack-container {
+  border: 4px solid white;
+  border-radius: 6%;
+  box-shadow: 5px 5px 100px darkgrey;
+  width: 70%;
+  margin: 5% auto;
+  text-align: center;
+  background: rgb(1, 112, 1);
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  color: white;
+}
+
+.flex-blackjack-row-1 {
+  padding: 10px 30px 10px 30px;
+}
+
+.flex-blackjack-row-3 {
+  padding-bottom: 5%;
+}
+
+.flex-blackjack-row-1 div {
+  border: 1.5px solid white;
+  border-radius: 5px;
+  flex: 1;
+  min-height: 350px;
+  padding: 10px;
+  text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+
+.flex-blackjack-row-2 div {
+  padding: 10px;
+}
+
+table {
+  box-shadow: 5px 5px 5px black;
+  padding-bottom: 10px;
+  color: white;
+  background: #328795;
+  width: 200px;
+}
+
+tr,
+th,
+td {
+  padding: 5px;
+}
+
+h2,
+h3 {
+  color: white;
+  font-size: 1.5em !important;
+  font-family: cursive;
+}
+
+.title {
+  font-size: 2em !important;
+  padding-top: 15px;
+}
+
+#hit-button,
+#stand-button,
+#deal-button {
+  width: 95px;
+  color: black;
+  font-family: monospace;
+}
+
+#deal-button {
+  margin-right: 8px;
+}
+
+#hit-button {
+  background: #ffc107;
+  border-color: #ffc107;
+}
+
+#stand-button {
+  background: #dcdcdc;
+  border-color: #dcdcdc;
+}
